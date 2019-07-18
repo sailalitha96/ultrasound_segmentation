@@ -14,3 +14,5 @@ A unet is always best for segmentation especially for a biomedical image analysi
 
 The image format was .tif and 580x420 in size.Therefore it is too big to be trained on my GPU. I have decided to rescale my images size 128x128 since it is faster to predict and train. I tried with all the training images initially for seeing what performance the data set without any augmentation provides. It gave a private score .53. The improvements occurs  with augmentation and checking for those contradictory masks for the similar images. 
 ![j](https://user-images.githubusercontent.com/25079132/61428893-1cc90980-a8f2-11e9-8308-548a0b3d4a2d.JPG)
+
+![m](https://user-images.githubusercontent.com/25079132/61429093-ed66cc80-a8f2-11e9-8bad-89632e6818b6.JPG)

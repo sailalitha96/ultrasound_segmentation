@@ -25,3 +25,4 @@ This training set had many contradictory images . Histogram intensity can be fou
 ```
 spatial distance using cosine similarity
 ```
+![similairty](https://user-images.githubusercontent.com/25079132/64492231-f06da180-d23f-11e9-9b5e-b31b692e1598.JPG)

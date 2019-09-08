@@ -22,6 +22,6 @@ The image format was .tif and 580x420 in size.Therefore it is too big to be trai
 
 This training set had many contradictory images . Histogram intensity can be found using 
 
-'''
-spatial distance using cosine similarity 
-'''
+```
+spatial distance using cosine similarity
+```

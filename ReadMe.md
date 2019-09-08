@@ -16,3 +16,12 @@ The image format was .tif and 580x420 in size.Therefore it is too big to be trai
 ![j](https://user-images.githubusercontent.com/25079132/61428893-1cc90980-a8f2-11e9-8308-548a0b3d4a2d.JPG)
 
 ![m](https://user-images.githubusercontent.com/25079132/61429093-ed66cc80-a8f2-11e9-8bad-89632e6818b6.JPG)
+
+
+## Image Similarity 
+
+This training set had many contradictory images . Histogram intensity can be found using 
+
+'''
+spatial distance using cosine similarity 
+'''

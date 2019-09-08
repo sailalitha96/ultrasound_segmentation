@@ -23,6 +23,9 @@ The image format was .tif and 580x420 in size.Therefore it is too big to be trai
 This training set had many contradictory images . Histogram intensity can be found using 
 
 ```
-spatial distance using cosine similarity
+###spatial distance using cosine similarity
+    import scipy.spatial.distance as spdist
+    D = spdist.squareform(spdist.pdist(x, metric='cosine'))
+
 ```
 ![similairty](https://user-images.githubusercontent.com/25079132/64492231-f06da180-d23f-11e9-9b5e-b31b692e1598.JPG)

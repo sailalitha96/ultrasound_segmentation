@@ -4,11 +4,7 @@
 
 ### Aim 
 
-The nerve area called the brachial plexus needs to be segmented from the given images. This was a challenging problem since there were an uneven distribution of images with masks. Some of the kernels had pointed out data with contradictory masks.Therefore a simple thresholding could eliminate these images.
-
-### Model Selection 
-
-A unet is always best for segmentation especially for a biomedical image analysis. I decided to use a Unet without pretrained weightsand used Dropouts in between to increase acuracy. 
+The nerve area called the brachial plexus needs to be segmented from the given images. This was a challenging problem since there were an uneven distribution of images with masks. Some of the kernels had pointed out data with contradictory masks.Therefore a simple thresholding could eliminate these images. 
 
 ### Image Preprocessing 
 
@@ -29,3 +25,13 @@ This training set had many contradictory images . Histogram intensity can be fou
 
 ```
 ![similairty](https://user-images.githubusercontent.com/25079132/64492231-f06da180-d23f-11e9-9b5e-b31b692e1598.JPG)
+
+### Model Selection 
+
+A unet is always best for segmentation especially for a biomedical image analysis. I decided to use a Unet without pretrained weightsand used Dropouts in between to increase acuracy.The loss function used is a dice score which can be used for checking for overlap beween ground truth makss and predicted masks.
+
+![unetmodel](https://user-images.githubusercontent.com/25079132/64492339-f912a780-d240-11e9-9328-98f9317d6cb1.JPG)
+
+#### To do 
+
+Currently trying to implemnt a FCNN model , will update soon 
